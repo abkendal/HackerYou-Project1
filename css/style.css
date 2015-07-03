@@ -31,11 +31,9 @@ h1 {
 	max-width: 1280px;
 	margin: 0 auto;
 }
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+.section {
+	padding: 50px 0;
+	margin:; 0 auto;
 }
 .row {
   margin-right: -15px;
@@ -71,6 +69,8 @@ h1 {
 .home {
 	padding-left: 20px;
 }
+
+
 /*Main styles*/
 .main {
 	overflow: auto;
@@ -108,6 +108,32 @@ h1 {
 	-webkit-filter: grayscale(100%); 
 }
 .work-container img:hover {
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%)
+}
+
+/*Profile styles*/
+.profile-info {
+	float:left;
+	height: 400px;
+	width: 40%;
+	color: black;
+	background: lightgrey;
+	margin-left: 5%;
+	padding: 20px;
+}
+.profile-img {
+	background:url(../images/adam.jpg)bottom right no-repeat;
+	background-size: contain;
+	height: 400px;
+	width: 40%;
+	float:right;
+	position: relative;
+	right: 10%;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%); 
+}
+.profile-img:hover {
 	filter: grayscale(0%);
 	-webkit-filter: grayscale(0%)
 }
