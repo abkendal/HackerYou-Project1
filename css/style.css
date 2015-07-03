@@ -16,14 +16,15 @@
 *:first-child+html .clearfix { zoom: 1; } /* IE7 */
 
 body {
-	font-family: Helvetica, sans-serif;
+	/*font-family: 'Arimo', sans-serif;*/
+	font-family: 'Roboto', sans-serif;
 }
 h1 {
 	font-size: 75px;
 	position: absolute;
 	left:20%;
 	padding-top: 275px;
-	font-weight: bolder;
+	font-weight: 900;
 
 }
 
@@ -46,6 +47,7 @@ h1 {
 	position: fixed;
 	top: 0;
 	width: 100%;
+	letter-spacing: 1px;
 }
 .navigation a {
 	color: black;
@@ -113,27 +115,56 @@ h1 {
 }
 
 /*Profile styles*/
+.profile {
+	padding-bottom: 100px;
+}
 .profile-info {
 	float:left;
 	height: 400px;
-	width: 40%;
+	width: 30%;
 	color: black;
 	background: lightgrey;
-	margin-left: 5%;
-	padding: 20px;
+	margin-left: 15%;
+	padding: 50px;
+
 }
 .profile-img {
-	background:url(../images/adam.jpg)bottom right no-repeat;
-	background-size: contain;
+	background:url(../images/adam.jpg)top left no-repeat lightgrey;
+	background-size: cover;
 	height: 400px;
-	width: 40%;
+	width: 30%;
 	float:right;
 	position: relative;
-	right: 10%;
+	right: 15%;
 	filter: grayscale(100%);
 	-webkit-filter: grayscale(100%); 
 }
 .profile-img:hover {
 	filter: grayscale(0%);
 	-webkit-filter: grayscale(0%)
+}
+
+/*Contact styles*/
+.contact {
+	padding-top: 100px;
+	background: darkgrey;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.contact h3 {
+	font-weight: 700;
+}
+.social-container {
+	padding-left: 0px;
+}
+
+.social-container li {
+	display: inline-block;
+}
+.social-container i {
+	color: black;
+}
+.contact p {
+	font-size: 12px;
 }
