@@ -97,14 +97,17 @@ h1 {
 }
 .work-container li {
 	display: inline-block;
-	width: 49%;
+	width: 47%;
+	padding:0 1%;
 }
 
 .work-container img {
 	width: 100%;
+	border: solid 8px lightgrey;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%); 
 }
-
-
-.work img {
-	/*max-width: 200px;*/
+.work-container img:hover {
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%)
 }
