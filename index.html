@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Adam Kendal</title>
+	<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+	</script>
+</head>
+<body>
+	<div class="navigation clearfix">
+		<div class="wrapper clearfix">
+			<div class="home">
+				<a href="#">Adam Kendal</a>
+			</div>
+			<ul class="menu vertical-text">
+				<li><a href="#work">Work</a></li>
+				<li><a href="#profile">Profile</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</div> <!--/.navigation -->
+
+
+	<div class="main">
+		<div class="wrapper">
+			<div class="main-img wow fadeInRight">
+			</div>
+			<h1 class="wow fadeInLeft">Front End <br>Web Developer</h1>
+		</div>
+	</div><!--/.main -->
+
+	<div class="work" id="work">
+		<ul class="work-container">
+			<li><img class="wow fadeInRight" src="/images/home.jpg" alt=""></li>
+			<li><img class="wow fadeInLeft" src="/images/home.jpg" alt=""></li>
+			<li><img class="wow fadeInRight" src="/images/home.jpg" alt=""></li>
+			<li><img class="wow fadeInLeft" src="/images/home.jpg" alt=""></li>
+			<li><img class="wow fadeInRight" src="/images/home.jpg" alt=""></li>
+			<li><img class="wow fadeInLeft" src="/images/home.jpg" alt=""></li>
+		</ul>
+	</div>
+
+
+	<script src="js/wow.min.js"></script>
+	<script>
+	 new WOW().init();
+	</script>
+</body>
+</html>
