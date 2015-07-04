@@ -21,16 +21,15 @@ body {
 }
 h1 {
 	font-size: 75px;
-	position: absolute;
-	left:20%;
-	padding-top: 275px;
+	position: relative;
+	left: 17.6%;
 	font-weight: 900;
 
 }
 
 .wrapper {
-	/*max-width: 1280px;*/
-	max-width: 900px;
+	max-width: 1280px;
+	/*max-width: 900px;*/
 	margin: 0 auto;
 }
 .section {
@@ -43,7 +42,7 @@ h1 {
 }
 /*Navigation styles*/
 .navigation {
-	padding: 30px 0;
+	padding: 30px 0px 30px 20px;
 	margin: 0;
 	position: fixed;
 	top: 0;
@@ -57,9 +56,9 @@ h1 {
 }
 .menu {
 	z-index: 999;
-	position: absolute;
+	position: relative;
 	top: 472px;
-	right: -370px;
+	left: 93%;
 }
 .menu li {
 	display: inline-block;
@@ -86,9 +85,9 @@ h1 {
 	height:375px;
 	background: url(../images/gold_rec_grey.jpg) bottom right no-repeat;
 	background-size: contain;
-	position: absolute;
-	top: 58px;
-	right: 13.5%;
+	position: relative;
+	top: 152px;
+	left:34%;
 	z-index: -1;
 }
 
