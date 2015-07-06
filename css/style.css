@@ -90,6 +90,9 @@ h1 {
 	left:34%;
 	z-index: -1;
 }
+.main-header {
+	max-width: 60%;
+}
 
 /*Work styles*/
 .work-container {
