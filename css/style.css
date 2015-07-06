@@ -53,6 +53,7 @@ body {
 	position: relative;
 	top: 472px;
 	left: 93%;
+	width:450px;
 }
 .menu li {
 	display: inline-block;
